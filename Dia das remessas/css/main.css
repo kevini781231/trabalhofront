@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #333;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: red;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+p{
+    font-size: 20px;
+    
+}
+.titulo{
+    font-size: 30px;
+  
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0  rgba(50,50,50,0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card.p{
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.image{
+    float: right;
+    max-width: 80px;
+    max-height: 80px;
+}
+.green{
+    border-left: 3px solid #3bb54a;
+
+}
+.blue{
+    border-left: 3px solid #4895ff;
+
+}
+.red{
+    border-left: 3px solid #b3404a;
+}
+.texto-card{
+    font-size: 16px;
+    text-align: center;
+    
+}
